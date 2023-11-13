@@ -1,10 +1,10 @@
 <?php
-function get_args($arr)
+function get_args(...$args)
 {
-    $key = array(1, 2, 3);
+	return $args;
 }
 
-function get_last_arg(){
-    return ($key);
+function get_last_arg(...$args)
+{
+	return array_pop($args);
 }
-?>
