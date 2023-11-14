@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+}
+
+.champ-drag{
+    margin: 50px;
+    border: 2px dashed #fff;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.champ-drag .icon{
+    font-size: 70px;
+    color: #fff;
+}
+
+.champ-drag h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+.archive-text{
+    color: #fff;
+    font-size: 30px;
+}
+
+#Archive{
+    border-radius: 2px;
+    box-shadow: 0px 1px 2px;
+    width: 40%;
+    height: 40%;
+}
+
+h3{
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+
+ul li{
+    border: 2px solid #fff;
+    padding: 2px;
+    list-style-type: none;
+    font-size: 20px;
+    color: #fff;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap');
+body {
+	padding:0;
+	margin:0;
+	background-color:#E6E6E6;
+	font-size:12px;
+	font-family:"Josefin Sans",sans-serif;
+	background-image:url("https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==");
+	background-position:1px 2px;
+	background-size:cover;
+	max-width:100%;
+	background-attachment:scroll;
+	background-position:1px 2px;
+	zoom:150%;
+	transform-origin:50% 0;
+	margin:0;
+	padding:0;
+	display:inline-block;
+	color:rgb(0,0,0);
+}
+h1 {
+	text-align:center;
+	border-bottom:1px black solid;
+	padding-bottom:6px;
+	margin-bottom:10%;
+}
+em {
+	font-size:1.2em;
+	border-bottom:1px solid black;
+	width:100px;
+	padding-bottom:8px;
+}
+span {
+	font-size:1.2em;
+	border-bottom:1px solid black;
+	width:100px;
+	padding-bottom:8px;
+}
+input {
+	border-radius:4px;
+	border:none;
+	padding:4px;
+	margin:5px;
+	display:inline-block;
+	font-family:"Josefin Sans",sans-serif;
+	transition:0.6s;
+}
+input:hover {
+	transition:ease 1s;
+	background-color:#c4a7a1;
+}
+input:focus {
+	outline:none;
+}
+#valider {
+	border-radius:5px;
+	box-shadow:7px 3px 4px black;
+	cursor:pointer;
+	text-decoration:none;
+	border:none;
+	padding:2px 12px;
+	position:relative;
+	left:35%;
+	background-color:#00000005;
+	font-family:"Josefin Sans",sans-serif;
+}
+.borderGreen input {
+	border:2px dotted blue;
+}
+#valider:hover {
+	transition:1s;
+	text-decoration:underline;
+	color:green;
+	text-decoration:none;
+}
+label {
+	width:150px;
+	display:inline-block;
+}
+form {
+	padding:1% 5%;
+	background-color:#00000038;
+	width:350px;
+	height:auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+}
+select {
+	display:inline-block;
+	text-align:center;
+	font-family:"Josefin Sans",sans-serif;
+	padding:4px;
+	border:none;
+	border-radius:4px;
+}
+select:hover {
+	transition:ease 1s;
+	background-color:#c4a7a1;
+}
+select:focus {
+	outline:none;
+}
+.hiddenn {
+	visibility:hidden;
+	text-align:center;
+	border-radius:4px;
+	border:none;
+	padding:4px;
+	margin:5px;
+	display:inline-block;
+	font-family:"Josefin Sans",sans-serif;
+	transition:0.6s;
+	padding:1% 5%;
+	background-color:#00000038;
+	width:350px;
+	height:auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}

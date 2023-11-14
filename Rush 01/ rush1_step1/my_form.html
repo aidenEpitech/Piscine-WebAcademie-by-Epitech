@@ -1,0 +1,83 @@
+<!-- Header -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Epitech - Rush #1</title>
+<meta charset="utf-8">
+<meta name="description" content="Ce site contient un formmulaire crée par Esin, Aiden et Amine.">
+<meta name="keywords" content="Formulaire, Epitech, Web académie, Rush1, Soutenance">
+<link rel="stylesheet" href="../ rush1_step2/my_style.css" type="text/css">
+<script src="../ rush1_step3/my_script.js"></script>
+</head>
+
+<!-- Formulaire -->
+<body>
+<section>
+<form action="rush1_step1.html" method="POST" name="form">
+	<h1> Formulaire</h1>
+	<label>
+	<span>Sexe :</span>
+	</label><br><br>
+	<label> Homme <input type="radio" name="sexe" required></label><br>
+	<label> Femme <input type="radio" name="sexe" required></label><br>
+	<label> Autre <input type="radio" name="sexe" required></label><br>
+	<br>
+	<label>
+	<span>Civilité :</span>
+	</label>
+	<select>
+		<option>M.</option>
+		<option>Mme.</option>
+	</select>
+	<br>
+	<div class="borderGreen">
+		<label>
+		<span>Nom :</span>
+		</label><input type="text" name="nom" placeholder="Votre nom ?">
+	</div>
+	<label>
+	<span>E-mail :</span>
+	</label>
+	<input type="email" name="email" placeholder="Votre email ?" id="Email">
+	<br>
+	<label>
+	<span>Téléphone :</span>
+	</label>
+	<input type="tel" name="nombre" placeholder="Votre numéro ?">
+	<br>
+	<div class="borderGreen">
+		<label>
+		<span>Website :</span>
+		</label>
+		<input type="url" name="website" placeholder="https://" required>
+	</div>
+	<br>
+	<label>
+	<span>Naissance :</span>
+	</label>
+	<input type="date" name="date" required>
+	<br>
+	<br>
+	<label>
+	<span>Hobbies :</span>
+	</label><br><br>
+	<label>Jeux Vidéo<input type="checkbox" name="check" value="Jeux Vidéo"></label>
+	<label>Cinéma<input type="checkbox" name="check" value="Cinema"></label>
+	<label>Lecture<input type="checkbox" name="check" value="Lecture"></label>
+	<label>Sport<input type="checkbox" name="check" value="Sport"></label>
+	<label>Informatique<input type="checkbox" name="check" value="Informatique"></label>
+	<br>
+	<input type="hidden" name="token" id="website" value="my first website">
+	<br>
+	<input id="valider" type="submit" name="send" value="Validation">
+</form>
+<br>
+
+<!-- Message de validation une fois le formulaire envoyer -->
+<div class="hiddenn">
+	Votre formulaire a été envoyé avec succès.<br>
+	Merci pour votre visite !
+</div>
+</section>
+</body>
+</html>
